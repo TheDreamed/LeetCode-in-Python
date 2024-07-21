@@ -14,3 +14,6 @@ class Solution(object):
                 return False
         
         return True
+    ##Silution 2 save memory
+    def isAnagram(self, s, t):
+        return sorted(s) == sorted(t)
